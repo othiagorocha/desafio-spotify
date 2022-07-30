@@ -1,0 +1,47 @@
+header {
+  background-color: #000;
+  height: 80px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: inherit;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0 12px ;
+}
+
+#spotify-logo {
+  cursor: pointer;
+  fill: #fff;
+  margin-left: 92px;
+}
+
+#spotify-logo:hover {
+  transition: .4s all;
+  transform: scale(1.02);
+	filter: brightness(0) saturate(100%) invert(68%) sepia(83%) saturate(504%) hue-rotate(80deg) brightness(96%) contrast(85%);
+  opacity: 1.9;
+}
+
+#header-routes {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 75px;
+}
+
+.header-link, .header-pipe {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  list-style: none;
+  margin: 8px 17px;
+}
+
+.header-link:hover {
+  transition: .2s ease-in;
+	filter: brightness(0) saturate(100%) invert(68%) sepia(83%) saturate(504%) hue-rotate(80deg) brightness(96%) contrast(85%);
+  opacity: 1.9;
+}

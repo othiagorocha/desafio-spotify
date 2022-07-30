@@ -1,0 +1,129 @@
+footer {
+  display: block;
+  background: black;
+  color: #fff;
+  height: 530px;
+  padding: 80px 0 50px;
+}
+
+
+#footer-content {
+  display: flex;
+  height: 400px;
+  margin: 0 80px 20px;
+  flex-wrap: wrap;
+}
+
+#footer-spotify-logo:hover {
+  transition: .4s all;
+	filter: brightness(0) saturate(100%) invert(68%) sepia(83%) saturate(504%) hue-rotate(80deg) brightness(96%) contrast(85%);
+  opacity: 1.9;
+}
+
+#contact-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-list {
+  padding: 0 15px;
+  text-align: left;
+  height: 346px;
+  width: 195px;
+}
+
+.contact-list-title {
+  color: #919496;
+  font-family: circularmedium;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: .08em;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.contact-list-item {
+  font-family: circularlight;
+  font-size: 16px;
+  padding: 3px 0 16px;
+}
+
+.contact-list-item:hover {
+  transition: .2s all;
+	filter: brightness(0) saturate(100%) invert(68%) sepia(83%) saturate(504%) hue-rotate(80deg) brightness(96%) contrast(85%);
+  opacity: 1.9;
+}
+
+#social-networks-area {
+  height: 346px;
+  margin: 0 15px 0 183px;
+  width: 192px;
+}
+
+.social-network-item {
+  color: white;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+.social-network-item:hover {
+  filter: brightness(0) saturate(100%) invert(68%) sepia(83%) saturate(504%) hue-rotate(80deg) brightness(96%) contrast(85%);
+  opacity: 1.9;
+  transition: .2s all;
+}
+
+#country {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: flex-end;
+  width: 1140px;
+}
+
+.country-title {
+  color: #919496;
+  padding-left: 8px;
+}
+
+.country-title:hover {
+  transition: .2s all;
+	filter: brightness(0) saturate(100%) invert(68%) sepia(83%) saturate(504%) hue-rotate(80deg) brightness(96%) contrast(85%);
+  opacity: 1.9;
+}
+
+#final-links {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.final-links-list {
+  display: flex;
+  align-items: center;
+  color: #919496;
+  height: 39px;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0 15px 0 0;
+}
+
+.final-link-item {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 24px;
+}
+
+.final-link-item:hover {
+  transition: .2s all;
+	filter: brightness(0) saturate(100%) invert(68%) sepia(83%) saturate(504%) hue-rotate(80deg) brightness(96%) contrast(85%);
+  opacity: 1.9;
+}
+
+.copyright {
+  color: #919496;
+  font-size: 12px;
+  margin-left: 465px;
+  margin-top: 15px;
+  height: 39px;
+  justify-content: flex-end;
+}

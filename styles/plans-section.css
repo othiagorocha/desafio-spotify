@@ -1,0 +1,134 @@
+#plans-section {
+  background-color: #EFEFEF;
+  height: 1126px;
+
+}
+
+#plans-content {
+  height: 575px;
+  margin: 0 75px;
+  padding: 75px 15px;
+}
+
+.choose-plan {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.choose-plan-title {
+  font-family: circularblack;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1.6px;
+  margin: 0;
+}
+
+.choose-plan-subtitle {
+  font-family: circularlight;
+  margin: 5px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  list-style: none;
+}
+
+.card, .more-cards {
+  margin-right: 7px;
+}
+
+.more-cards {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#plans-principal {
+  display: flex;
+  margin-bottom: 26px;
+  margin-top: 50px;
+}
+
+.plan-structure {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+  margin: 0 8px;
+  padding: 16px 16px;
+  width: 300px;
+}
+
+.plan-structure:hover {
+  transform: scale(1.02);
+  transition: .4s ease-out;
+}
+
+.plan-package, .plan-description{
+  display: block;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 205px;
+  justify-content: space-around;
+  list-style: none;
+  text-align: left;
+}
+
+
+.plan-description {
+  height: 325px;
+}
+
+
+.plan-month-free, .plan-payment {
+  display: inline-block;
+  background-color: rgb(29, 117, 222);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  margin-block: 0 10px;
+  padding: 4px 8px;
+}
+
+.plan-payment {
+  color: rgb(29, 117, 222);
+  background-color: #fff;
+  border: 1px solid rgb(29, 117, 222)
+}
+
+.plan-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0 0 5px;
+}
+
+.plan-about {
+  font-family: circularlight;
+  line-height: 22px;
+  font-weight: 200;
+}
+
+
+.plan-description-content {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.plan-description-check-signal {
+  padding-right: 10px;
+}
+
+.btn-start-plan {
+  width: 100%;
+}
+
+.terms-plan {
+  display: flex;
+  color: rgb(83, 83, 83);
+  flex-wrap: wrap;
+}
